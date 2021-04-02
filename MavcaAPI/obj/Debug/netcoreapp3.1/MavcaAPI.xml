@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MavcaAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MavcaAPI.Controllers.AccountController.Get(Mavca.Data.ViewModels.AccountGetViewModel)">
+            <summary>
+            Get Account base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get accounts</response>
+            <response code="500">Return Exception</response>   
+        </member>
+        <member name="M:MavcaAPI.Controllers.AccountNotificationController.Get(Mavca.Data.ViewModels.AccountNotificationGetViewModel)">
+            <summary>
+            Get EmployeeNotification base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get regulation</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.BranchController.Get(Mavca.Data.ViewModels.BranchGetViewModel)">
+            <summary>
+            Get Branch base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get branch</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.BranchController.GetBranchListForQCTask">
+            <summary>
+            Get Monthly Branch for QC.
+            </summary>
+        </member>
+        <member name="M:MavcaAPI.Controllers.CameraConfigController.Get(Mavca.Data.ViewModels.CameraConfigGetViewModel)">
+            <summary>
+            Get CameraConfig base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get position</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.CameraController.Get(Mavca.Data.ViewModels.CameraGetViewModel)">
+            <summary>
+            Get Camera base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get camera</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.CertificateTypeController.Get(Mavca.Data.ViewModels.CertificateTypeGetViewModel)">
+            <summary>
+            Get CertificateType base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get certificateType</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.CertificationController.Get(Mavca.Data.ViewModels.CertificationGetViewModel)">
+            <summary>
+            Get Certification base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get certification</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.EmployeeController.Get(Mavca.Data.ViewModels.EmployeeGetViewModel)">
+            <summary>
+            Get Employee base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get employees</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.EmployeeController.GetUnassignedManagers">
+            <summary>
+            Get Unassigned Managers
+            </summary>
+        </member>
+        <member name="M:MavcaAPI.Controllers.EmployeeController.GetQcList">
+            <summary>
+            Get QC List
+            </summary>
+        </member>
+        <member name="T:MavcaAPI.Controllers.NotiController">
+            <summary>
+            This controller for test notification purpose only
+            </summary>
+        </member>
+        <member name="M:MavcaAPI.Controllers.NotificationController.Get(Mavca.Data.ViewModels.NotificationGetViewModel)">
+            <summary>
+            Get EmployeeNotification base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get regulation</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.PositionController.Get(Mavca.Data.ViewModels.PositionGetViewModel)">
+            <summary>
+            Get Position base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get position</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.RegulationController.Get(Mavca.Data.ViewModels.RegulationGetViewModel)">
+            <summary>
+            Get Regulation base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get regulation</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.ReportController.Get(Mavca.Data.ViewModels.ReportGetViewModel)">
+            <summary>
+            Get Report base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get report</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.RoleController.Get(Mavca.Data.ViewModels.RoleGetViewModel)">
+            <summary>
+            Get Role base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get roles</response>
+            <response code="500">Return Exception</response>   
+        </member>
+        <member name="M:MavcaAPI.Controllers.ScheduleSpaceEmployeeController.Get(System.Int32)">
+            <summary>
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get violation</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.ShiftController.Get(Mavca.Data.ViewModels.ShiftGetViewModel)">
+            <summary>
+            Get Shift base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get shift</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.ViolationController.Get(Mavca.Data.ViewModels.ViolationGetViewModel)">
+            <summary>
+            Get Violation base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get violation</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.ViolationController.Delete(System.Int32[])">
+            <summary>
+            QC can delete violation when status = Opening
+            </summary>
+        </member>
+        <member name="M:MavcaAPI.Controllers.ViolationEmployeeController.PostViolationEmployee(System.Int32,Mavca.Data.ViewModels.ViolationEmployeeViewModel)">
+            <summary>
+            Get Violation base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get violation</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.WorkScheduleController.Get(Mavca.Data.ViewModels.WorkScheduleGetViewModel)">
+            <summary>
+            Get WorkSchedule base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get schedule</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="M:MavcaAPI.Controllers.WorkspaceController.Get(Mavca.Data.ViewModels.WorkspaceGetViewModel)">
+            <summary>
+            Get Workspace base on Parameter.
+            </summary>
+            <response code="200">Request Success</response>
+            <response code="409">Fail to Get workspace</response>
+            <response code="500">Return Exception</response>
+        </member>
+        <member name="T:MavcaAPI.CronJobs.CreateReportCronJob">
+            <summary>
+            Every month, the system will auto generate report for all branches.
+            At 12:00 AM, on day 1 of the month
+            </summary>
+        </member>
+        <member name="T:MavcaAPI.CronJobs.CreateViolationExpiredCronJob">
+            <summary>
+            Every day, the system will sanction unconfirmed violations from before until yesterday
+            Generate 1 violation/BM/day
+            Not apply for branch has not any manager
+            At 11:59:00 PM, everyday
+            </summary>
+        </member>
+        <member name="T:MavcaAPI.CronJobs.SubmitReportBySystemCronJob">
+            <summary>
+            Every month, the system will auto submit reports (which are not submitted by QC) for all branches.
+            At 12:00 AM, on day 2 of the month
+            </summary>
+        </member>
+        <member name="T:MavcaAPI.CronJobs.TimeToSubmitReportCronJob">
+            <summary>
+            Every month, the system will auto change report status to "Time To Submit" for all branches.
+            purpose: remind QC to submit report and determine the exact time to submit report
+            At 12:00 AM, on day 1 of the month
+            </summary>
+        </member>
+    </members>
+</doc>
